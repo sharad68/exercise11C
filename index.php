@@ -8,7 +8,6 @@ $movies = getMovies($pdo);
 ?>
 <?php require_once "header.php"; ?>
 <section>
-
     <?php foreach ($movies as $index => $movie): ?>
         <article>
             <h2><?= $movie["title"] ?></h2>
